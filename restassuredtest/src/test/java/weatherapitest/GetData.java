@@ -49,6 +49,8 @@ public class GetData extends TestBase {
         int code = response.getStatusCode();
         Assert.assertEquals(code, 201);
 
+        response.prettyPrint();
+
     }
 }
 
