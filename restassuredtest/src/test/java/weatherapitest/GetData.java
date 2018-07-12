@@ -1,5 +1,10 @@
 package weatherapitest;
 
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+import org.json.simple.JSONObject;
+import org.junit.Assert;
 import org.junit.Test;
 import util.TestBase;
 import static io.restassured.RestAssured.given;
@@ -26,6 +31,24 @@ public class GetData extends TestBase {
     @Test
     public void testGetResponseStatusCode() {
         given().when().get().then().statusCode(200);
+    }
+
+    @Test
+    public void testPost() {
+        RequestSpecification request = RestAssured.given();
+        request.header("Content-Type","application/json");
+
+        JSONObject json = new JSONObject();
+        json.put("name","john");
+        json.put("job","qa");
+
+        request.body(json.toJSONString());
+
+        Response response = request.post("https://reqres.in/api/users");
+
+        int code = response.getStatusCode();
+        Assert.assertEquals(code, 201);
+
     }
 }
 
