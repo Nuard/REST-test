@@ -28,8 +28,8 @@
       <file leaf-file-name="GetData.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/weatherapitest/GetData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="51" column="31" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+            <state relative-caret-position="212">
+              <caret line="76" column="44" lean-forward="true" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1057#1058#0" expanded="true" />
@@ -173,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GetData.testPost">
+  <component name="RunManager" selected="JUnit.GetData.testPut">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -195,7 +195,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="GetData.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetData.getPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="weatherapitest.*" />
@@ -207,7 +207,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="weatherapitest" />
       <option name="MAIN_CLASS_NAME" value="weatherapitest.GetData" />
-      <option name="METHOD_NAME" value="testGet" />
+      <option name="METHOD_NAME" value="getPost" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -220,7 +220,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="GetData.testGetBody" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetData.getReqResBody" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="weatherapitest.*" />
@@ -232,7 +232,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="weatherapitest" />
       <option name="MAIN_CLASS_NAME" value="weatherapitest.GetData" />
-      <option name="METHOD_NAME" value="testGetBody" />
+      <option name="METHOD_NAME" value="getReqResBody" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -245,7 +245,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="GetData.testGetBodyContains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetData.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="weatherapitest.*" />
@@ -257,32 +257,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="weatherapitest" />
       <option name="MAIN_CLASS_NAME" value="weatherapitest.GetData" />
-      <option name="METHOD_NAME" value="testGetBodyContains" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="GetData.testGetResponseStatusCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="weatherapitest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="restassuredtest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="weatherapitest" />
-      <option name="MAIN_CLASS_NAME" value="weatherapitest.GetData" />
-      <option name="METHOD_NAME" value="testGetResponseStatusCode" />
+      <option name="METHOD_NAME" value="testDelete" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -308,6 +283,31 @@
       <option name="PACKAGE_NAME" value="weatherapitest" />
       <option name="MAIN_CLASS_NAME" value="weatherapitest.GetData" />
       <option name="METHOD_NAME" value="testPost" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="GetData.testPut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="weatherapitest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="restassuredtest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="weatherapitest" />
+      <option name="MAIN_CLASS_NAME" value="weatherapitest.GetData" />
+      <option name="METHOD_NAME" value="testPut" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -381,19 +381,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.GetData.testGet" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.GetData.testGetBody" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.GetData.testGetResponseStatusCode" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.GetData.testGetBodyContains" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.GetData.testPost" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.GetData.testPost" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.GetData.getPost" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.GetData.getReqResBody" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GetData.testDelete" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.GetData.testPut" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GetData.testPost" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GetData.testGetResponseStatusCode" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.GetData.testGetBodyContains" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.GetData.testGetBody" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.GetData.testGet" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.GetData.testPut" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GetData.testDelete" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GetData.testPost" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.GetData.getReqResBody" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.GetData.getPost" />
       </list>
     </recent_temporary>
   </component>
@@ -414,35 +414,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GetData_testGetBody - 2018.07.12 at 17h 13m 25s.xml">
-      <configuration name="GetData.testGetBody" configurationId="JUnit" />
+    <history-entry file="GetData_getReqResBody - 2018.07.12 at 22h 30m 04s.xml">
+      <configuration name="GetData.getReqResBody" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetData_testGetBody - 2018.07.12 at 17h 13m 56s.xml">
-      <configuration name="GetData.testGetBody" configurationId="JUnit" />
+    <history-entry file="GetData_getReqResBody - 2018.07.12 at 22h 30m 47s.xml">
+      <configuration name="GetData.getReqResBody" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetData_testGetBody - 2018.07.12 at 17h 14m 16s.xml">
-      <configuration name="GetData.testGetBody" configurationId="JUnit" />
+    <history-entry file="GetData_testDelete - 2018.07.12 at 22h 37m 58s.xml">
+      <configuration name="GetData.testDelete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetData_testGetBody - 2018.07.12 at 17h 15m 55s.xml">
-      <configuration name="GetData.testGetBody" configurationId="JUnit" />
+    <history-entry file="GetData_testDelete - 2018.07.12 at 22h 38m 21s.xml">
+      <configuration name="GetData.testDelete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetData_testGetBody - 2018.07.12 at 17h 16m 26s.xml">
-      <configuration name="GetData.testGetBody" configurationId="JUnit" />
+    <history-entry file="GetData_testDelete - 2018.07.12 at 22h 38m 47s.xml">
+      <configuration name="GetData.testDelete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetData_testGetBody - 2018.07.12 at 17h 22m 38s.xml">
-      <configuration name="GetData.testGetBody" configurationId="JUnit" />
+    <history-entry file="GetData_testDelete - 2018.07.12 at 22h 40m 09s.xml">
+      <configuration name="GetData.testDelete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetData_testGetBodyContains - 2018.07.12 at 17h 23m 13s.xml">
-      <configuration name="GetData.testGetBodyContains" configurationId="JUnit" />
+    <history-entry file="GetData_testDelete - 2018.07.12 at 22h 40m 28s.xml">
+      <configuration name="GetData.testDelete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetData_testGetResponseStatusCode - 2018.07.12 at 17h 23m 23s.xml">
-      <configuration name="GetData.testGetResponseStatusCode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GetData_testPost - 2018.07.12 at 22h 19m 31s.xml">
+    <history-entry file="GetData_testPost - 2018.07.12 at 22h 33m 39s.xml">
       <configuration name="GetData.testPost" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetData_testPost - 2018.07.12 at 22h 22m 13s.xml">
-      <configuration name="GetData.testPost" configurationId="JUnit" />
+    <history-entry file="GetData_testPut - 2018.07.12 at 22h 45m 17s.xml">
+      <configuration name="GetData.testPut" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetData_testPut - 2018.07.12 at 22h 45m 38s.xml">
+      <configuration name="GetData.testPut" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -599,8 +599,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/weatherapitest/GetData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="51" column="31" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+        <state relative-caret-position="212">
+          <caret line="76" column="44" lean-forward="true" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1057#1058#0" expanded="true" />
